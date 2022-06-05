@@ -27,19 +27,20 @@ test_transform = transforms.Compose([
 ])
 
 
-root_dir = '../input/intel-image-classification/'
+root_dir = 'E:/datasets/intel_images/'
 # Load the training data
 trainset = datasets.ImageFolder(
-    root_dir+'/seg_train/seg_train', transform=train_transform)
+    root_dir+'/seg_train', transform=train_transform)
 trainloader = DataLoader(trainset, batch_size=64, shuffle=True)
 
 
 # Load the test data
 testset = datasets.ImageFolder(
-    root_dir + '/seg_test/seg_test', transform=test_transform)
+    root_dir + '/seg_test', transform=test_transform)
 testloader = DataLoader(testset, batch_size=64, shuffle=False)
 
-n_classes = len(trainset.classes)
+
+torch.save(trainset.classes, 'classes.pth')
 
 # print(trainloader.dataset, '\n')
 # print(testloader.dataset)
