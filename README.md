@@ -28,5 +28,5 @@ Additionally, the app can receive a folder of mixed images, creates subfolders i
  * Provide the source folder (path) where all the images are located
  * Provide the destination folder name (path) where the classified images should be copy
 
- It worths mentioning that the app doesn't delete the source folder to avoid unintentionally deleting important files. 
+ It is worth mentioning that the app doesn't delete the source folder to avoid unintentionally deleting important files. 
  For a safer approach, the user can manually delete the source folder after images have been classified.
