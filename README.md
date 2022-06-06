@@ -21,10 +21,10 @@ Additionally, the app can receive a folder of mixed images, creates subfolders i
 * shutil
 
 # How to use the app
-1) Single image classification
+1) *Single image classification*  
  After launching the streamlit app, drag and drop and image to receive a prediction of the class the app thinks its belongs to
  
-3) Multiple images classification
+3) *Multiple images classification*  
  * Provide the source folder (path) where all the images are located
  * Provide the destination folder name (path) where the classified images should be copy
 
