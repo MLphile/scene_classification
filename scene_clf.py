@@ -21,7 +21,7 @@ for name in image_names:
     # get prediction
     img_src_pth = os.path.join(origin_folder, name)
     img = Image.open(img_src_pth)
-    pred = make_prediction(model,img,classes)
+    pred = make_prediction(model, img, classes)
 
     # Destination subfolder (based on pred) and image pth names
     dst_sub_folder = os.path.join(destination_folder, pred)
@@ -34,5 +34,3 @@ for name in image_names:
 
     else:
         shutil.copy(img_src_pth, img_dst_pth)
-
-    
