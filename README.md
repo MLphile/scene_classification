@@ -9,10 +9,17 @@ This project is about creating a cnn model able to classify an image into one of
 * Street
  
 Details about the dataset used can be found [here](https://www.kaggle.com/datasets/puneet6060/intel-image-classification).  
-We built an app that, given an image (drag and drop), tells you to which from the above categories the image belongs too.  
+We built a streamlit app that, given an image (drag and drop), tells you to which from the above categories the image belongs too.  
 Additionally, the app can receive a folder of mixed images, creates subfolders into which to classify the images.
 
 # Requirements
+* streamlit
+* pytorch
+* torchvision
+* Pillow
+* os
+* shutil
 
-
-
+# How to use the app
+1) Single image classification
+2) Multiple images classification
