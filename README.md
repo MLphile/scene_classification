@@ -22,7 +22,7 @@ Additionally, the app can receive a folder of mixed images, creates subfolders i
 
 # How to use the app
 1) *Single image classification*  
- After launching the streamlit app, drag and drop and image to receive a prediction of the class the app thinks its belongs to
+ After launching the streamlit app, drag and drop an image to receive a prediction of the class the app thinks its belongs to.
  
 3) *Multiple images classification*  
  * Provide the source folder (path) where all the images are located
