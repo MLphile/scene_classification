@@ -30,3 +30,6 @@ Additionally, the app can receive a folder of mixed images, creates subfolders i
 
  It is worth mentioning that the app doesn't delete the source folder to avoid unintentionally deleting important files. 
  For a safer approach, the user can manually delete the source folder after images have been classified.
+ 
+![Accuracy](https://user-images.githubusercontent.com/100673761/172314868-48ccf9d6-41eb-4739-803c-5fa33fafc75b.gif)
+
