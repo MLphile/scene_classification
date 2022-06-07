@@ -12,6 +12,9 @@ Details about the dataset used can be found [here](https://www.kaggle.com/datase
 We built a streamlit app that, given an image (drag and drop), tells you to which from the above categories the image belongs too.  
 Additionally, the app can receive a folder of mixed images, creates subfolders into which to classify the images.
 
+![final_629e3752eefef9009be2b12a_308736](https://user-images.githubusercontent.com/100673761/172317731-d8185c8b-f3d3-4d45-b0f7-be79b4306cba.gif)
+
+
 # Requirements
 * streamlit
 * pytorch
@@ -30,3 +33,6 @@ Additionally, the app can receive a folder of mixed images, creates subfolders i
 
  It is worth mentioning that the app doesn't delete the source folder to avoid unintentionally deleting important files. 
  For a safer approach, the user can manually delete the source folder after images have been classified.
+ 
+![Accuracy](https://user-images.githubusercontent.com/100673761/172314868-48ccf9d6-41eb-4739-803c-5fa33fafc75b.gif)
+
