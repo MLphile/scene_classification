@@ -27,7 +27,7 @@ for name in image_names:
     dst_sub_folder = os.path.join(destination_folder, pred)
     img_dst_pth = os.path.join(dst_sub_folder, name)
 
-    # If subfolder doesn't exist, create it and copy in image
+    # If subfolder doesn't exist, create it and copy in the corresponding image
     if not os.path.isdir(dst_sub_folder):
         os.mkdir(dst_sub_folder)
         shutil.copy(img_src_pth, img_dst_pth)
