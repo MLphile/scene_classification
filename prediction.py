@@ -28,7 +28,7 @@ def make_prediction(model, image, classes):
 
 
 # Load model
-model.load_state_dict(torch.load('model_state.pth'))
+model.load_state_dict(torch.load('C:\\Users\\ritth\\code\\Strive\\CNN-Weekend-Challenge\\model.pth'))
 
 # # Load classes for predictions
 # classes = torch.load('classes.pth')
