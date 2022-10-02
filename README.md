@@ -6,7 +6,9 @@ This project is about creating a cnn model able to classify an image into one of
 * Glacier
 * Mountain
 * Sea
-* Street
+* Street  
+
+The project is a joint effort between [Andrea](https://github.com/AndreaViviani89), [Ritthuja](https://github.com/RitthujaKandasamy) and I; it's a challenge given to us during our learning journey at Epicode.  Thanks guys for this great time working together :)!!!   
  
 Details about the dataset used can be found [here](https://www.kaggle.com/datasets/puneet6060/intel-image-classification).  
 We built a streamlit app that, given an image (drag and drop), tells you to which from the above categories the image belongs too.  
